@@ -3,7 +3,7 @@
 
 # Global Property
 title-text: ""
-desktop-image: "background.png"
+desktop-image: "plana_bg_2560_1440.png"
 desktop-image-scale-method: "stretch"
 desktop-color: "#1E1E2E"
 terminal-font: "Unifont Regular 16"
