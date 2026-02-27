@@ -3,7 +3,7 @@
 
 # Global Property
 title-text: ""
-desktop-image: "plana_bg_2560_1440.png"
+desktop-image: "BA_alicekey_bg12_2560_1440.png"
 desktop-image-scale-method: "stretch"
 desktop-color: "#1E1E2E"
 terminal-font: "CommitMono Nerd Font Regular 24"
@@ -27,8 +27,8 @@ terminal-border: "0"
   width = 40%
   height = 60%
   item_font = "CommitMono Nerd Font Regular 24"
-  item_color = "#CDD6F4"
-  selected_item_color = "#CDD6F4"
+  item_color = "#FFCC31"
+  selected_item_color = "#FFCC31"
   icon_width = 64
   icon_height = 64
   item_icon_space = 16
@@ -46,5 +46,5 @@ terminal-border: "0"
   align = "center"
   id = "__timeout__"
   text = "Booting in %d seconds"
-  color = "#CDD6F4"
+  color = "#FFCC31"
 }
