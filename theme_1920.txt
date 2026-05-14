@@ -1,0 +1,50 @@
+# GRUB2 gfxmenu pop theme, based and inspired by Vimix and Dracula grub themes
+# Designed for any resolution
+
+# Global Property
+title-text: ""
+desktop-image: "BA_alicekey_bg12_2560_1440.png"
+desktop-image-scale-method: "stretch"
+desktop-color: "#1E1E2E"
+terminal-font: "CommitMono Nerd Font Regular 24"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Logo image
+#  + image {
+# 	 left = 50%-50
+#	 top = 50%-50
+#    file = "logo.png"
+# }
+
+# Show the boot menu
++ boot_menu {
+  left = 30%
+  top = 40%
+  width = 40%
+  height = 60%
+  item_font = "CommitMono Nerd Font Regular 24"
+  item_color = "#FFCC31"
+  selected_item_color = "#FFCC31"
+  icon_width = 64
+  icon_height = 64
+  item_icon_space = 16
+  item_height = 64
+  item_padding = 8
+  item_spacing = 8
+  selected_item_pixmap_style = "select_*.png"
+}
+
+# Show a countdown message using the label component
++ label {
+  top = 20%
+  left = 35%
+  width = 30%
+  align = "center"
+  id = "__timeout__"
+  text = "Booting in %d seconds"
+  color = "#FFCC31"
+}
